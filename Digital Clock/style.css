@@ -1,0 +1,32 @@
+@font-face {
+	font-family: digital;
+	src: url("./Files/DS-DIGIB.TTF") format("truetype");
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	user-select: none;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: digital;
+	min-height: 100vh;
+	background-color: #222831;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.time-clock {
+	font-size: 25rem;
+	text-align: center;
+	color: #14ffec;
+}
